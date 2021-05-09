@@ -33,3 +33,17 @@ nav .nav-right-section a {
   margin-right: 10px;
   color: #000;
 }
+
+nav .nav-right-section .menu-icon {
+  background-repeat: no-repeat;
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50px;
+  margin-left: 10px;
+}
