@@ -78,6 +78,29 @@ main .main-input .main-input-container {
   align-items: center;
 }
 
+main .main-input .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon,
+main .main-input .micro-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .search-icon {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+}
+
+main .main-input .micro-icon {
+  background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+  cursor: pointer;
+}
+
 main .main-input input {
   width: 450px;
   height: 40px;
